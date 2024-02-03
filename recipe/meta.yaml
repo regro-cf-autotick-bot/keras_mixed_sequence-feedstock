@@ -1,5 +1,5 @@
 {% set name = "keras_mixed_sequence" %}
-{% set version = "1.0.28" %}
+{% set version = "1.0.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/keras_mixed_sequence-{{ version }}.tar.gz
-  sha256: d0f9af0279dddb6dfbf0f32430b0c5e71becbcb5d1f15d29be8e2296223f2e7f
+  sha256: 4d49f4325988dccd9d1f6d1ea53e1fc0be8a4479545387f79db7d9245ed66e91
 
 build:
   noarch: python
